@@ -1,24 +1,8 @@
-# vue3-cli5
+# cypress vue eslint issues
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+this project was created by:
+vue create vue3-cli5 --preset default (using vue cli 5)
+cd vue3-cli5
+npm i -D https://cdn.cypress.io/beta/npm/10.0.0/darwin-x64/circle-10.0-release-27fafde7ea6eecb08f097e9605de35d54ee8e6e5/cypress.tgz
+npx cypress open (run through the CT set up)
+npm install -D @cypress/vue @cypress/webpack-dev-server
